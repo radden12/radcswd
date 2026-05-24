@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  ggselcardinal:
+    build: .
+    container_name: ggselcardinal
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./storage:/app/storage
+      - ./logs:/app/logs
+      - ./plugins:/app/plugins
