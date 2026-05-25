@@ -1,8 +1,0 @@
-venv/
-__pycache__/
-*.pyc
-config.json
-bindings.json
-storage/*.json
-storage/*.log
-.DS_Store
